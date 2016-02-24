@@ -11,11 +11,12 @@
   </welcome-file-list>
   
   <servlet>
-  	<servlet-name>TestServlet1</servlet-name>
+  	<servlet-name>TestServlet</servlet-name>
   	<servlet-class>test.controller.TestServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>TestServlet1</servlet-name>
-  	<url-pattern>/new/Test</url-pattern>
+  	<servlet-name>TestServlet</servlet-name>
+  	<url-pattern>/test</url-pattern>
   </servlet-mapping>
+  
 </web-app>
